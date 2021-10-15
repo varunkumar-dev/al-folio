@@ -15,7 +15,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi, My name is Varun. I am currently a Senior Applied Scientist at Alexa Natural Language Understanding (NLU). At Alexa, I broadly work on 
 
-- **NLU Robustness**: How to make sure that Alexa NLU performs consistently under distribution shifts, model retraining, etc. 
+- **NLU Robustness**: How to make sure that Alexa NLU performs consistently under unexpected data changes (GDPR data deletion), distribution shifts, model retraining, etc. 
 - **Data generation/augmentation**: How to generate training data for new features, existing low-resource functionalities. How do we make sure that the generated data is fair? 
 - **Data Pipelines**: How to select diverse labeled/unlabeled data for Alexa model training.   
 
