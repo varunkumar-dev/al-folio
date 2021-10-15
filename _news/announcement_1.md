@@ -1,7 +1,6 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2021-04-11 
 inline: true
 ---
-
-A simple inline announcement.
+Amazon's SVP Rohit's [blog post](https://www.amazon.science/blog/alexa-the-science-must-go-on) about latest Alexa research including 2 papers that I co-authored. 
