@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2021-04-11 
+date: 2022-02-24 
 inline: true
 ---
-Amazon's SVP Rohit's [blog post](https://www.amazon.science/blog/alexa-the-science-must-go-on) about latest Alexa research highlighting 2 papers that I co-authored. 
+2 Papers (1 Long and 1 Short paper) accepted in ACL 2022 

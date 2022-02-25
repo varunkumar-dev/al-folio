@@ -1,7 +1,6 @@
 ---
 layout: post
-date: 2021-03-01 
+date: 2021-04-11 
 inline: true
 ---
-
-[VentureBeat.com coverage](https://venturebeat.com/2021/02/03/researchers-release-dataset-to-expose-racial-religious-and-gender-biases-in-language-models/ ) of our BOLD paper. Dataset is available at [Amazon-Research's github repo](https://github.com/amazon-research/bold)
+Amazon's SVP Rohit's [blog post](https://www.amazon.science/blog/alexa-the-science-must-go-on) about latest Alexa research highlighting 2 papers that I co-authored. 
