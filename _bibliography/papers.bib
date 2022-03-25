@@ -3,6 +3,23 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{Gupta2022MitigatingGB,
+  title={Mitigating Gender Bias in Distilled Language Models via Counterfactual Role Reversal},
+  author={Umang Gupta and J. Dhamala and Varun Kumar and Apurv Verma and Yada Pruksachatkun and Satyapriya Krishna and Rahul Gupta and Kai-Wei Chang and Greg Ver Steeg and A. G. Galstyan},
+  year={2022},
+  booktitle={Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics Findings},
+  publisher={Association for Computational Linguistics},
+  abstract={Language models excel at generating coherent text, and model compression techniques such as knowledge distillation have enabled their use in resource-constrained settings. However, these models can be biased in multiple ways, including the unfounded association of male and female genders with gender-neutral professions. Therefore, knowledge distillation without any fairness constraints may preserve or exaggerate the teacher model’s biases onto the distilled model. To this end, we present a novel approach to mitigate gender disparity in text generation by learning a fair model during knowledge distillation. We propose two modifications to the base knowledge distillation based on counterfactual role reversal— modifying teacher probabilities and augmenting the training set. We evaluate gender polarity across professions in open-ended text generated from the resulting distilled and finetuned GPT–2 models and demonstrate a substantial reduction in gender disparity with only a minor compromise in utility. Finally, we observe that language models that reduce gender polarity in language generation do not improve embedding fairness or downstream classification fairness.}
+}
+
+@inproceedings{Cao2022Intrinsic,
+  title={On the intrinsic and extrinsic fairness evaluation metrics for contextualized language representations},
+  author={Yang Trista Cao and Yada Pruksachatkun and Kai-Wei Chang and Rahul Gupta and Varun Kumar and Jwala Dhamala and Aram Galstyan},
+  year={2022},
+  booktitle={Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics},
+  publisher={Association for Computational Linguistics},
+  abstract={Multiple metrics have been introduced to measure fairness in various natural language processing tasks. These metrics can be roughly categorized into two categories: 1) extrinsic metrics for evaluating fairness in downstream applications and 2) intrinsic metrics for estimating fairness in upstream contextualized language representation models. In this paper, we conduct an extensive correlation study between intrinsic and extrinsic metrics across bias notions using 19 contextualized language models. We find that intrinsic and extrinsic metrics do not necessarily correlate in their original setting, even when correcting for metric misalignments, noise in evaluation datasets, and confounding factors such as experiment configuration for extrinsic metrics. }
+}
 
 @inproceedings{kumar-etal-2020-data,
     title = "Data Augmentation using Pre-trained Transformer Models",
@@ -150,7 +167,13 @@ location = {Cagliari, Italy},
 series = {IUI '20}
 }
 
-@INPROCEEDINGS{9003747,  author={Cho, Eunah and Xie, He and Lalor, John P. and Kumar, Varun and Campbell, William M.},  booktitle={2019 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)},   title={Efficient Semi-Supervised Learning for Natural Language Understanding by Optimizing Diversity},   year={2019},  volume={},  number={},  pages={1077-1084},  doi={10.1109/ASRU46091.2019.9003747}}
+@INPROCEEDINGS{9003747, 
+author={Cho, Eunah and Xie, He and Lalor, John P. and Kumar, Varun and Campbell, William M.},  
+booktitle={2019 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)},   
+title={Efficient Semi-Supervised Learning for Natural Language Understanding by Optimizing Diversity},   
+year={2019},
+doi={10.1109/ASRU46091.2019.9003747},
+abstract={Expanding new functionalities efﬁciently is an ongoing challenge for single-turn task-oriented dialogue systems. In this work, we explore functionality-speciﬁc semi-supervised learning via self-training. We consider methods that augment training data automatically from unlabeled data sets in a functionality-targeted manner. In addition, we examine multiple techniques for efﬁcient selection of augmented utterances to reduce training time and increase diversity. First, we consider paraphrase detection methods that attempt to ﬁnd utterance variants of labeled training data with good coverage. Second, we explore sub-modular optimization based on n-grams features for utterance selection. Experiments show that functionality-speciﬁc self-training is very effective for improving system performance. In addition, methods optimizing diversity can reduce training data in many cases to 50% with little impact on performance. }}
 
 
 @inproceedings{10.1145/2818052.2869096,
@@ -210,4 +233,11 @@ location = {Virtual Event, Canada},
 series = {FAccT '21}
 }
 
-@INPROCEEDINGS{9383495,  author={Kumar, Manoj and Kumar, Varun and Glaude, Hadrien and de Lichy, Cyprien and Alok, Aman and Gupta, Rahul},  booktitle={2021 IEEE Spoken Language Technology Workshop (SLT)},   title={Protoda: Efficient Transfer Learning for Few-Shot Intent Classification},   year={2021},  volume={},  number={},  pages={966-972},  doi={10.1109/SLT48900.2021.9383495}}
+@INPROCEEDINGS{9383495, 
+ author={Kumar, Manoj and Kumar, Varun and Glaude, Hadrien and de Lichy, Cyprien and Alok, Aman and Gupta, Rahul},  
+ booktitle={2021 IEEE Spoken Language Technology Workshop (SLT)},   
+ title={Protoda: Efficient Transfer Learning for Few-Shot Intent Classification},   
+ year={2021},  
+ doi={10.1109/SLT48900.2021.9383495},
+ abstract={Practical sequence classification tasks in natural language processing often suffer from low training data availability for target classes. Recent works towards mitigating this problem have focused on transfer learning using embeddings pre-trained on often unrelated tasks, for instance, language modeling. We adopt an alternative approach by transfer learning on an ensemble of related tasks using prototypical networks under the meta-learning paradigm. Using intent classification as a case study, we demonstrate that increasing variability in training tasks can significantly improve classification performance. Further, we apply data augmentation in conjunction with meta-learning to reduce sampling bias. We make use of a conditional generator for data augmentation that is trained directly using the meta-learning objective and simultaneously with prototypical networks, hence ensuring that data augmentation is customized to the task. We explore augmentation in the sentence embedding space as well as prototypical embedding space. Combining meta-learning with augmentation provides upto 6.49% and 8.53% relative F1-score improvements over the best performing systems in the 5-shot and 10-shot learning, respectively. }
+ }
