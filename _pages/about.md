@@ -8,19 +8,17 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
+  address: >
     <p>555 your office number</p>
     <p>123 your address street</p>
     <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, My name is Varun. I am currently a Senior Applied Scientist at Alexa Natural Language Understanding (NLU) team. I primarily work on model robustness, data augmentation, semi-supervised learning related problems. My Amazon related blogs/papers can be found at [Amazon Science](https://www.amazon.science/author/varun-kumar)
+website. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I graduated from [University Of Maryland, College Park (UMD)](https://www.cs.umd.edu) in 2017. At UMD, I primarily worked on Human-In-The-Loop topic modeling project to incorporate non-experts feedback into topic modeling. Before joining UMD, I worked as a software engineer at [Tata Research Development and Design Centre (TRDDC)](https://en.wikipedia.org/wiki/Tata_Research_Development_and_Design_Centre), India for 3.5 years. 
